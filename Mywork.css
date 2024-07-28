@@ -1,0 +1,27 @@
+.mywork{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap:80px;
+    
+    background: linear-gradient(264deg, #161630,20.09%,#07090c 99.28%);
+
+
+}
+.mywork h1{
+    margin-top: 5cm;
+    text-align: center;
+    color: #b8c0ff;
+    font-size: 50px;
+    text-decoration: underline #b8c0ff;
+    transition: 0.5s;
+}
+.mywork h1:hover{
+    transform: scale(1.10);
+
+}
+
+.mywork-container{
+    display: flex;
+    justify-content: space-around;
+}

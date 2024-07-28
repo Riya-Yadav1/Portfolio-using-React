@@ -1,0 +1,140 @@
+.about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:80px;
+    
+    background:linear-gradient(264deg, #161630,20.09%,#07090c 99.28%);
+
+
+}
+.about-title{
+    position: relative;
+
+}
+.about-title h1{
+    text-decoration: underline #b8c0ff;
+    margin-top: 2cm;
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+    color: #b8c0ff;
+    transition: 0.5s;
+}
+.about-title h1:hover{
+    transition: 0.5s;
+    transform: scale(1.10);
+
+}
+.about-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    border:  aliceblue;
+    width: 120px;
+    height: 100px;
+
+}
+.about-left img{
+    margin-left: 2cm;
+    
+}
+.about-sections{
+    display: flex;
+    gap:80px;
+    margin-top: 1cm;
+}
+ .about-right{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.about-para{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.about-para b{
+    color: rgb(165, 160, 160);
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-skill{
+    color: aliceblue;
+    display: flex;
+    gap:50px ;
+    align-items: center;
+    transition: 0.3s;
+
+}
+    
+.about-skill p{
+    color: rgb(155, 147, 147);
+  
+    min-width: 150px;
+    font-size: 28px;
+    font-weight: 500;
+} 
+   
+.about-skill hr{
+    outline:none;
+    border: none;
+    width: 50%;
+    height: 8px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #b7e4c7 -5.09%,#0077b6 106.28%);
+
+} 
+.achievements{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 80px ;
+
+}
+.achievement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+
+}
+.achievement h1{
+    font-size: 55px;
+    font-weight: 700;
+    background: linear-gradient(264deg, #b7e4c7 -5.09%,#0077b6 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.achievement p{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 500;
+}
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.achievement:hover{
+    transform: scale(1.12);
+    transition: 0.5s;
+}
